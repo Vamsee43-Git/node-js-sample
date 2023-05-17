@@ -12,7 +12,7 @@ RUN npm install
 
 # Copy the rest of the application code into the image
 COPY . .
-
+EXPOSE 3000
 # Set the container's default command to start the application
 CMD ["npm", "start"]
 
